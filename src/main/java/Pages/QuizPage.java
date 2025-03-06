@@ -24,7 +24,6 @@ public class QuizPage {
     }
 
     // Locateurs des éléments de la page
-
     // Locateur pour le loader (élément de chargement de la page)
     @FindBy(id = "loader")
     private WebElement loader;

@@ -21,7 +21,6 @@ public class MailPage {
     }
 
     // Locateurs des éléments de la page
-
     // Locateur du champ de saisie de l'email
     @FindBy(xpath = "//input[@id='login']")
     WebElement emailInput;
@@ -33,6 +32,8 @@ public class MailPage {
     // Locateur du mail de "contact@hightest.nc"
     @FindBy(xpath = "(//span[@class='lmf' and text()='contact@hightest.nc'])[1]")
     WebElement verifyEmail;
+
+
 
 
     // Ouvrir un nouvel onglet pour naviguer vers Yopmail

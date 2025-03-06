@@ -20,8 +20,8 @@ public class HomePage {
         PageFactory.initElements(driver, this);
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
-    // Locateurs des éléments de la page
 
+    // Locateurs des éléments de la page
     // Locateur du lien "Toolbox"
     @FindBy(xpath = "//a[@title='Toolbox']")
     WebElement toolboxLink;
@@ -41,7 +41,6 @@ public class HomePage {
             return false;
         }
     }
-
 
     // Cliquer sur le lien "Toolbox"
     public void clickOnToolbox() {

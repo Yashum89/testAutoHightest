@@ -22,7 +22,6 @@ public class ToolboxPage {
     }
 
     // Locateurs des éléments de la page
-
     // Locateur du lien : Quiz ISTQB niveau Foundation (version 2018)
     @FindBy(xpath = "//h1[contains(text(),'Toolbox')]")
     WebElement toolboxHeader;
